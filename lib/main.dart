@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: ListView.builder(
         itemCount: books.length,
-        itemView: (context, index) {
+        itemBuilder: (context, index) { // ← ここを修正しました！
           return Card(
             margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             child: ListTile(
@@ -48,7 +48,6 @@ class HomeScreen extends StatelessWidget {
               subtitle: Text(books[index]['author']!),
               trailing: Text(books[index]['progress']!),
               onTap: () {
-                // ここに読書セッション画面への遷移を後ほど書きます
                 print('${books[index]['title']} がタップされました');
               },
             ),
@@ -57,7 +56,10 @@ class HomeScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // 本追加画面への遷移
+          // 次のステップでここを押した時の「本追加画面」を作ります
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('本追加画面は準備中です！')),
+          );
         },
         tooltip: '本を追加',
         child: const Icon(Icons.add),
