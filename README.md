@@ -10,6 +10,7 @@
 ## 🚀 Live Demo
 👉 **https://reading-habit-app.web.app**  
 （:contentReference[oaicite:0]{index=0} Hosting を利用して公開中）
+![Reading Habit Screenshot](./docs/screenshot.png)
 
 ---
 
