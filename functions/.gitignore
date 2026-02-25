@@ -8,3 +8,13 @@ typings/
 # Node.js dependency directory
 node_modules/
 *.local
+
+# Google Cloud / Firebase config files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# VS Code settings (including launch.json with keys)
+.vscode/
+
+# Environment variables
+.env
