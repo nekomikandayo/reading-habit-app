@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "934169103159",
+    "project_id": "reading-habit-app",
+    "storage_bucket": "reading-habit-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934169103159:android:61bf2358bf95185c0b28b2",
+        "android_client_info": {
+          "package_name": "com.example.reading_habit_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934169103159-jap5sd5vfn8umm24fb3srvr5q43hsivb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOlXW8VhjaZ5YhzgwNdE5f3DLKF0DyUXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934169103159-jap5sd5vfn8umm24fb3srvr5q43hsivb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "934169103159-5as5j6riq7k4u60ul5o2i712mb0fg720.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.readingHabitApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
